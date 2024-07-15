@@ -1,0 +1,29 @@
+{
+    "eskrimador": {
+        "weaponSlot": {
+            "none": "???",
+            "auxiliary": "Auxiliary",
+            "heavy": "Heavy",
+            "superHeavy": "Superheavy"
+        },
+        "weaponType": {
+            "unknown": "???",
+            "rifle": "Rifle",
+            "CQB": "CQB",
+            "launcher": "Launcher",
+            "cannon": "Cannon"
+        },
+        "armorType": {
+            "light": "Light",
+            "medium": "Medium",
+            "heavy": "Heavy",
+            "shield": "Shield"
+        },
+        "armorLocation": {
+            "arms": "Arms",
+            "body": "Body",
+            "head": "Head",
+            "legs": "Legs"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="192" width="192"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div>
+        <label for="weaponSlot">Weapon Slot:</label>
+        <select id="weaponSlot" name="weaponSlot">
+          <option value="eskrimador.weaponSlot.auxiliary">Auxiliary</option>
+          <option value="eskrimador.weaponSlot.heavy">Heavy</option>
+          <option value="eskrimador.weaponSlot.superHeavy">Superheavy</option>
+        </select>
+
+        <label for="weaponType">Weapon Type:</label>
+        <select id="weaponType" name="weaponType">
+         <option value="eskrimador.weaponType.rifle">Rifle</option>
+         <option value="eskrimador.weaponType.CQB">CQB</option>
+         <option value="eskrimador.weaponType.launcher">Launcher</option>
+         <option value="eskrimador.weaponType.cannon">Cannon</option>
+  </select>
+    </div>
+</form>

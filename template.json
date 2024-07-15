@@ -1,0 +1,34 @@
+{
+    "Actor": {},
+    "Item": {
+        "types": [
+            "weapon", 
+            "armor"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            },
+            "bait": {
+                "bonuses": [],
+                "actions": [],
+                "integrated": [],
+                "tags": []
+
+            }
+        },
+        "weapon": {
+            "templates": ["itemDescription"],
+            "slot": [],
+            "damage": 0,
+            "attackBonus": 0,
+            "encumbrance": 0,
+            "healing": 0
+        },
+        "armor": {
+            "templates": ["itemDescription"],
+            "armorValue": 0,
+            "armorType": []
+        }
+    }
+}

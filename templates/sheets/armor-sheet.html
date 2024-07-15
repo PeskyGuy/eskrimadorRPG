@@ -1,0 +1,23 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div>
+        <label for="armorType">Armor Type:</label>
+        <select id="armorType" name="armorType">
+          <option value="eskrimador.armorType.light">Light</option>
+          <option value="eskrimador.armorType.heavy">Medium</option>
+          <option value="eskrimador.armorType.superHeavy">Heavy</option>
+        </select>
+        
+        <label for="armorLocation">Armor Location:</label>
+        <select id="armorLocation" name="armorLocation">
+          <option value="eskrimador.armorLocation.arms">Arms</option>
+          <option value="eskrimador.armorLocation.body">Body</option>
+          <option value="eskrimador.armorLocation.head">Head</option>
+          <option value="eskrimador.armorLocation.legs">Legs</option>
+        </select>
+    </div>
+
+</form>
