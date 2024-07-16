@@ -9,25 +9,25 @@
             "itemDescription": {
                 "description": ""
             },
-            "baitp": {
+            "baitpe": {
                 "bonuses": [],
                 "actions": [],
                 "integrated": [],
                 "tags": [],
-                "price": 0
+                "price": 0,
+                "encumbrance": 0
 
             }
         },
         "weapon": {
-            "templates": ["itemDescription", "bait"],
+            "templates": ["itemDescription", "baitpe"],
             "weaponSlot": [],
             "weaponType": [],
             "damage": 0,
-            "encumbrance": 0,
             "healing": 0
         },
         "armor": {
-            "templates": ["itemDescription", "bait"],
+            "templates": ["itemDescription", "baitpe"],
             "armorValue": 0,
             "armorType": [],
             "armorLocation": []
