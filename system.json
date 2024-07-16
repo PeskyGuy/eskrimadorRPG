@@ -31,8 +31,7 @@
     "documentTypes": {
       "Actor": {
         "pc": { "htmlFields": ["background.biography"] },
-        "npc": { "htmlFields": ["background.biography"] },
-        "pawn": {}
+        "npc": { "htmlFields": ["background.biography"] }
       },
       "Item": {
         "weapon": {},
