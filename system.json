@@ -36,6 +36,7 @@
       },
       "Item": {
         "weapon": {},
+        "armor": {},
         "equipment": {},
         "prosthetics": {},
         "tags": {}

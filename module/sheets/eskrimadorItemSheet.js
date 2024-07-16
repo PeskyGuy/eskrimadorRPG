@@ -1,6 +1,6 @@
 export default class eskrimadorItemSheet extends ItemSheet {
     get template() {
-        return `systems/eskrimador/templates/sheets/${this.item.data.type}-sheet.html` ;
+        return `systems/eskrimador/templates/sheets/${this.item.type}-sheet.html` ;
     }
 
     getData(){
