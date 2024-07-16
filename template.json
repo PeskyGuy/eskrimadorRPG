@@ -18,17 +18,18 @@
             }
         },
         "weapon": {
-            "templates": ["itemDescription"],
-            "slot": [],
+            "templates": ["itemDescription", "bait"],
+            "weaponSlot": [],
+            "weaponType": [],
             "damage": 0,
-            "attackBonus": 0,
             "encumbrance": 0,
             "healing": 0
         },
         "armor": {
-            "templates": ["itemDescription"],
+            "templates": ["itemDescription", "bait"],
             "armorValue": 0,
-            "armorType": []
+            "armorType": [],
+            "armorLocation": []
         }
     }
 }
