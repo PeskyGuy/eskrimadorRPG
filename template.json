@@ -9,11 +9,12 @@
             "itemDescription": {
                 "description": ""
             },
-            "bait": {
+            "baitp": {
                 "bonuses": [],
                 "actions": [],
                 "integrated": [],
-                "tags": []
+                "tags": [],
+                "price": 0
 
             }
         },
