@@ -3,7 +3,7 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
-    <div>
+    <div class="armorConfig">
         <label for="armorType">Armor Type:</label>
         <select id="armorType" name="armorType">
           <option value="eskrimador.armorType.light">Light</option>
@@ -19,5 +19,5 @@
           <option value="eskrimador.armorLocation.legs">Legs</option>
         </select>
     </div>
-
+    {{editor world.description target="description" button=false engine="prosemirror" collaborate=false}}
 </form>
