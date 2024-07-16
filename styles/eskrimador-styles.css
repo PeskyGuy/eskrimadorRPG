@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
 }
-.sheet .sheet-weaponConfig .sheet-armorConfig {
+.sheet-weaponConfig .sheet-armorConfig {
     height: 10%;
     display: flex;
     flex-direction: row;
 }
-.sheet .sheet-header {
+.sheet-header {
     height: 15%;
 }
 .editor {
