@@ -7,7 +7,7 @@ eskrimador.weaponSlot = {
     superHeavy: "eskrimador.weaponSlot.superHeavy"
 },
 eskrimador.weaponType = {
-    unknown: "???",
+    none: "???",
     rifle: "eskrimador.weaponType.rifle",
     CQB: "eskrimador.weaponType.CQB",
     launcher: "eskrimador.weaponType.launcher",
