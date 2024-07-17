@@ -4,8 +4,6 @@
         "types": [
             "weapon", 
             "armor",
-            "weapon",
-            "armor",
             "equipment",
             "prosthetics",
             "tag",
@@ -43,6 +41,12 @@
             "armorValue": 0,
             "armorType": [],
             "armorLocation": []
+        },
+        "equipment": {
+            "templates": ["itemDescription", "baitpe"]
+        },
+        "prosthetics": {
+            
         }
     }
 }
