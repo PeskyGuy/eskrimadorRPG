@@ -1,9 +1,21 @@
 {
-    "Actor": {},
+    "Actor":{},
     "Item": {
         "types": [
             "weapon", 
-            "armor"
+            "armor",
+            "weapon",
+            "armor",
+            "equipment",
+            "prosthetics",
+            "tag",
+            "class",
+            "template",
+            "feature",
+            "weaponMod",
+            "talent",
+            "trigger",
+            "trait"
         ],
         "templates": {
             "itemDescription": {

@@ -38,7 +38,14 @@
         "armor": {},
         "equipment": {},
         "prosthetics": {},
-        "tags": {}
+        "tag": {},
+        "class": {},
+        "template": {},
+        "feature": {},
+        "weaponMod": {},
+        "talent": {},
+        "trigger": {},
+        "trait": {}
       }
     },
     "socket": false,
